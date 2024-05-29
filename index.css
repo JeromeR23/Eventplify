@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
